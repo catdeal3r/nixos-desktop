@@ -1,4 +1,4 @@
-# Random laptop nixos config
+# Random desktop nixos config
 Some of ma nixos stuff
 
 > [!Warning]
