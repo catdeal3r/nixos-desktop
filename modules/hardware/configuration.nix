@@ -74,9 +74,11 @@
   nixpkgs.config.allowUnfree = true;
 
   hardware.nvidia = {
-    enabled = true;
+    modesetting.enable = true;
     open = true;
+    nvidiaSettings = true;
   };
+  services.xserver.videoDrivers = [ "nvidia" ];
 
   # Firewall.
   networking.firewall.enable = true;
