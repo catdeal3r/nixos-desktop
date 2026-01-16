@@ -16,7 +16,7 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    apple-fonts.url = github:catdeal3r/apple-fonts-flake;
+    #apple-fonts.url = github:catdeal3r/apple-fonts-flake;
     mcmojave-cursor.url = github:catdeal3r/mcmojave-cursor-flake;
     product-sans-font.url = github:catdeal3r/product-sans-flake;
     idescriptor.url = github:catdeal3r/idescriptor-flake;
