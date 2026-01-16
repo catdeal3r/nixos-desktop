@@ -117,6 +117,7 @@ in
     docker
     pwgen
     foot
+    nautilus
   ];
   
   services.tailscale.enable = true;
