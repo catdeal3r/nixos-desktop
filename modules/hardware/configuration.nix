@@ -74,7 +74,7 @@
   nixpkgs.config.allowUnfree = true;
 
   hardware.nvidia = {
-    enable = true;
+    enabled = true;
     open = true;
   };
 
