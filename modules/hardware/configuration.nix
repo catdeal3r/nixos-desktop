@@ -73,10 +73,10 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  hardware.nvidia = {
-    enable = true;
-    open = true;
-  };
+  #hardware.nvidia = {
+  #  enable = true;
+  #  open = true;
+  #};
 
   # Firewall.
   networking.firewall.enable = true;
