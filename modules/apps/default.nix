@@ -101,7 +101,11 @@ in
     #inputs.prism-cracked.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.idescriptor.packages.${pkgs.stdenv.hostPlatform.system}.default
     #inputs.legacyLauncher.packages.${pkgs.stdenv.hostPlatform.system}.legacylauncher
-    kdePackages.kdenlive
+
+    #
+    pkgs-stable.kdePackages.kdenlive
+    #
+
     ifuse
     libimobiledevice
     yt-dlp
