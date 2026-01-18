@@ -80,6 +80,11 @@
   };
   services.xserver.videoDrivers = [ "nvidia" ];
 
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+
   # Firewall.
   networking.firewall.enable = true;
 
