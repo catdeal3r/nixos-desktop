@@ -102,9 +102,7 @@ in
     inputs.idescriptor.packages.${pkgs.stdenv.hostPlatform.system}.default
     #inputs.legacyLauncher.packages.${pkgs.stdenv.hostPlatform.system}.legacylauncher
 
-    #
-    pkgs-stable.kdePackages.kdenlive
-    #
+    kdePackages.kdenlive
 
     ifuse
     libimobiledevice
