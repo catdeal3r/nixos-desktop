@@ -76,7 +76,6 @@
     atk
     cups
     libGL
-    libglvnd.opengl
     xorg.libX11
     xorg.libXrandr
     xorg.libXcursor
