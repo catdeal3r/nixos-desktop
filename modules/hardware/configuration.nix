@@ -70,6 +70,7 @@
     expat
     glib
     stdenv.cc.cc.lib
+    libnspr
     #libglvnd.glx
     #libglvnd.opengl
     #xorg.libX11
