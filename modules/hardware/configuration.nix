@@ -84,6 +84,7 @@
     xorg.libXfixes
     xorg.libXrender
     xorg.libXcomposite
+    xorg.libXdamage
     #alsa-lib
   ];
 
