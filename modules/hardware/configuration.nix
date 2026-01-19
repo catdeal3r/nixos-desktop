@@ -75,7 +75,7 @@
     nss
     atk
     cups
-    libglvnd.glx
+    libGL
     libglvnd.opengl
     xorg.libX11
     xorg.libXrandr
