@@ -71,6 +71,7 @@
     glib
     stdenv.cc.cc.lib
     nspr
+    nss
     #libglvnd.glx
     #libglvnd.opengl
     #xorg.libX11
