@@ -89,6 +89,7 @@
     libxcb
     libxkbcommon
     cairo
+    pango
     #alsa-lib
   ];
 
