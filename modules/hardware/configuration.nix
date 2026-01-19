@@ -76,12 +76,12 @@
     cups
     #libglvnd.glx
     #libglvnd.opengl
-    #xorg.libX11
-    #xorg.libXrandr
-    #xorg.libXcursor
-    #xorg.libXext
-    #xorg.libXfixes
-    #xorg.libXrender
+    xorg.libX11
+    xorg.libXrandr
+    xorg.libXcursor
+    org.libXext
+    xorg.libXfixes
+    xorg.libXrender
     #alsa-lib
   ];
 
