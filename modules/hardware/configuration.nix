@@ -90,6 +90,7 @@
     libxkbcommon
     cairo
     pango
+    libasound
     #alsa-lib
   ];
 
