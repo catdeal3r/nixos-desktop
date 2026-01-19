@@ -73,6 +73,7 @@
     nspr
     nss
     atk
+    cups
     #libglvnd.glx
     #libglvnd.opengl
     #xorg.libX11
