@@ -85,6 +85,7 @@
     xorg.libXrender
     xorg.libXcomposite
     xorg.libXdamage
+    libgbm
     #alsa-lib
   ];
 
