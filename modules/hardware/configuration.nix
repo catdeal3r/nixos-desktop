@@ -75,8 +75,8 @@
     nss
     atk
     cups
-    #libglvnd.glx
-    #libglvnd.opengl
+    libglvnd.glx
+    libglvnd.opengl
     xorg.libX11
     xorg.libXrandr
     xorg.libXcursor
