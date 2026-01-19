@@ -91,7 +91,7 @@
     cairo
     pango
     libasound
-    #alsa-lib
+    alsa-lib
   ];
 
   # Allow unfree packages
