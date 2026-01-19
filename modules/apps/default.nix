@@ -120,6 +120,7 @@ in
     pwgen
     foot
     nautilus
+    protontricks
   ];
   
   services.tailscale.enable = true;
