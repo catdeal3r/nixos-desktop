@@ -72,6 +72,7 @@
     stdenv.cc.cc.lib
     nspr
     nss
+    atk
     #libglvnd.glx
     #libglvnd.opengl
     #xorg.libX11
