@@ -60,14 +60,15 @@
   nix.settings.auto-optimise-store = true;
   
   programs.nix-ld.enable = true;
+  # Dynamic libraries for 'normal' programs 
   programs.nix-ld.libraries = with pkgs; [
-  # Put missing dynamic libraries in here, not in the normal packaging place
     dbus
     harfbuzz
     freetype
     fontconfig
     fribidi
     expat
+    # required for beamng to run natively
     glib
     stdenv.cc.cc.lib
     nspr
@@ -82,6 +83,7 @@
     xorg.libXext
     xorg.libXfixes
     xorg.libXrender
+    xorg.libXcomposite
     #alsa-lib
   ];
 
