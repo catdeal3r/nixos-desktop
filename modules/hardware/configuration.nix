@@ -68,6 +68,17 @@
     fontconfig
     fribidi
     expat
+    glib
+    stdenv.cc.cc.lib
+    #libglvnd.glx
+    #libglvnd.opengl
+    #xorg.libX11
+    #xorg.libXrandr
+    #xorg.libXcursor
+    #xorg.libXext
+    #xorg.libXfixes
+    #xorg.libXrender
+    #alsa-lib
   ];
 
   # Allow unfree packages
