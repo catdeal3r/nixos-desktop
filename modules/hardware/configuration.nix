@@ -88,6 +88,7 @@
     libgbm
     libxcb
     libxkbcommon
+    cairo
     #alsa-lib
   ];
 
