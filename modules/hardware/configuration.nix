@@ -79,7 +79,7 @@
     xorg.libX11
     xorg.libXrandr
     xorg.libXcursor
-    org.libXext
+    xorg.libXext
     xorg.libXfixes
     xorg.libXrender
     #alsa-lib
