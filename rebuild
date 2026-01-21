@@ -3,6 +3,7 @@ cd /etc/nixos
 sudo git add .
 gen=$(date '+%a %-d %b %Y %I:%M:%S %p')
 sudo git commit -m "$gen"
+
 if [[ $1 == "-u" ]]; then
   sudo nix flake update
   sudo nixos-rebuild --flake .# switch --upgrade
@@ -11,8 +12,13 @@ else
   if [[ $time -gt $((3 * 7 * 24 * 60 * 60)) ]]; then
     echo "[!] Warning: available packages are older than 3 weeks. Run rebuild with '-u' to update packages."
   fi
-  sudo nixos-rebuild --flake .# switch
+  if [[ $1 == "-b" ]]; then
+    sudo nixos-rebuild --flake .# boot
+  else
+    sudo nixos-rebuild --flake .# switch
+  fi
 fi
+
 if [[ $? == 0 ]]; then
   if [[ "$(nmcli n c)" != "none" ]]; then
     sudo git push

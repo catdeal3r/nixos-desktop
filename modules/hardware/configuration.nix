@@ -21,6 +21,11 @@
   # Enable bluetooth
   hardware.bluetooth.enable = true;
 
+  # hibernation
+  boot.kernelParams = [ "resume_offset=11776000" ];
+  boot.resumeDevice = "/dev/disk/by-uuid/afd8b9ef-eefc-46c9-8308-88b698f0f172";
+  powerManagement.enable = true;
+
   # forgot to add swapfile lol
   swapDevices = [{
     device = "/swapfile";
