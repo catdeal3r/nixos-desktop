@@ -25,6 +25,7 @@
   boot.kernelParams = [ "resume_offset=11776000" ];
   boot.resumeDevice = "/dev/disk/by-uuid/afd8b9ef-eefc-46c9-8308-88b698f0f172";
   powerManagement.enable = true;
+  systemd.services.systemd-suspend.environment.SYSTEMD_SLEEP_FREEZE_USER_SESSIONS = "false";
 
   # forgot to add swapfile lol
   swapDevices = [{
@@ -104,6 +105,7 @@
     modesetting.enable = true;
     open = true;
     nvidiaSettings = true;
+    powerManagement.enable = true;
   };
   services.xserver.videoDrivers = [ "nvidia" ];
 
