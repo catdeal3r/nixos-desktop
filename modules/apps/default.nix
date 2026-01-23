@@ -109,7 +109,6 @@ in
     yt-dlp
     davinci-resolve
     moonlight-qt
-    sunshine
     steam
     safeeyes
     tailscale 
@@ -122,6 +121,13 @@ in
     nautilus
     protontricks
   ];
+
+  services.sunshine = {
+    enable = true;
+    autoStart = false;
+    capSysAdmin = true;
+    openFirewall = false;
+  };
   
   services.tailscale.enable = true;
   
