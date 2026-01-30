@@ -21,7 +21,7 @@
         music = "/run/media/catdealer/Data/Music";
         videos = "/run/media/catdealer/Data/Videos";
       };
-      configFile."".force = true;
+      configFile."mimeapps.list".force = true;
 
       mimeApps = {
         enable = true;
