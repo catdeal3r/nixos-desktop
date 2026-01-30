@@ -21,7 +21,7 @@
         music = "/run/media/catdealer/Data/Music";
         videos = "/run/media/catdealer/Data/Videos";
       };
-      configFile."mimeapps.list".force = true;
+      configFile."".force = true;
 
       mimeApps = {
         enable = true;
@@ -72,6 +72,7 @@
 
     gtk = {
       enable = true;
+      gtk2.force = true;
       
       iconTheme = {
         name = "Tela-circle";
