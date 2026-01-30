@@ -21,6 +21,13 @@
   # Enable bluetooth
   hardware.bluetooth.enable = true;
 
+  # mount data
+  fileSystems."/run/media/catdealer/Data" = {
+    device = "UUID=2654C04F54C02381";
+    fsType = "ntfs";
+    options = ["uid=1000,gid=100,forceuid,forcegid"];
+  };
+
   # hibernation
   boot.kernelParams = [ "resume_offset=11776000" ];
   boot.resumeDevice = "/dev/disk/by-uuid/afd8b9ef-eefc-46c9-8308-88b698f0f172";
