@@ -27,6 +27,9 @@
     fsType = "ntfs";
     options = ["uid=1000,gid=100,forceuid,forcegid"];
   };
+  
+  # boxes usb passthrough
+  virtualisation.spiceUSBRedirection.enable = true;
 
   # hibernation
   boot.kernelParams = [ "resume_offset=11776000" ];
