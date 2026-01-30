@@ -24,7 +24,7 @@
 
       mimeApps = {
         enable = true;
-        force = true;
+        list.force = true;
         
         defaultApplications = {
           "application/pdf" = [ "firefox.desktop" ];
