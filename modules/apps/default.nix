@@ -144,4 +144,14 @@ in
   fonts.packages = with pkgs; [
     minecraftia
   ];
+  
+  services.samba = {
+    enable = true;
+    shares.largefiles = {
+      path = "/home/catdealer/Downloads";
+      browseable = "yes";
+      "read only" = "no";
+      "guest ok" = "yes";
+    };
+  };
 }
