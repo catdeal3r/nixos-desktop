@@ -21,10 +21,11 @@
         music = "/run/media/catdealer/Data/Music";
         videos = "/run/media/catdealer/Data/Videos";
       };
+      configFile."mimeapps.list".force = true
 
       mimeApps = {
         enable = true;
-        list.force = true;
+        force = true;
         
         defaultApplications = {
           "application/pdf" = [ "firefox.desktop" ];
