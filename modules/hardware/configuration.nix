@@ -101,14 +101,14 @@
     atk
     cups
     libGL
-    xorg.libX11
-    xorg.libXrandr
-    xorg.libXcursor
-    xorg.libXext
-    xorg.libXfixes
-    xorg.libXrender
-    xorg.libXcomposite
-    xorg.libXdamage
+    libX11
+    libXrandr
+    libXcursor
+    libXext
+    libXfixes
+    libXrender
+    libXcomposite
+    libXdamage
     libgbm
     libxcb
     libxkbcommon
