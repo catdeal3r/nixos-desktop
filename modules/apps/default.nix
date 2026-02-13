@@ -109,7 +109,6 @@ in
     yt-dlp
     davinci-resolve
     moonlight-qt
-    steam
     safeeyes
     tailscale 
     samba4Full
@@ -121,6 +120,12 @@ in
     nautilus
     protontricks
   ];
+  
+  programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = false;
+    dedicatedServer.openFirewall = true;
+  };
 
   services.sunshine = {
     enable = true;
