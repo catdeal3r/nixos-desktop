@@ -148,5 +148,6 @@ in
 
   fonts.packages = with pkgs; [
     minecraftia
+    inputs.apple-fonts.packages.${pkgs.stdenv.hostPlatform.system}.sf-pro
   ];
 }

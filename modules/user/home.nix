@@ -79,10 +79,10 @@
         package = pkgs.tela-circle-icon-theme;
       };
       
-      #font = {
-      #  name = "SF Pro Display";
-      #  package = inputs.apple-fonts.packages.${pkgs.stdenv.hostPlatform.system}.sf-pro;
-      #};
+      font = {
+        name = "SF Pro Display";
+        package = inputs.apple-fonts.packages.${pkgs.stdenv.hostPlatform.system}.sf-pro;
+      };
 
       cursorTheme = {
         name = "McMojave";
