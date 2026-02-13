@@ -17,6 +17,13 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
+  networking.nameservers = [ "1.1.1.1" "1.0.0.1" ];
+  services.resolved = {
+    enable = true;
+    dnssec = true;
+    domains = [ "~." ];
+    dnsovertls = true;
+  };
 
   # Enable bluetooth
   hardware.bluetooth.enable = true;
