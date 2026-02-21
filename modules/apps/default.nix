@@ -119,6 +119,7 @@ in
     foot
     nautilus
     protontricks
+    zip
   ];
   
   programs.steam = {
