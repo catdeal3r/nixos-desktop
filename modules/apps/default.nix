@@ -120,6 +120,7 @@ in
     nautilus
     protontricks
     zip
+    tor-browser
   ];
   
   programs.steam = {
