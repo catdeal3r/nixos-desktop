@@ -11,11 +11,11 @@
         "sf-pro-source": "sf-pro-source"
       },
       "locked": {
-        "lastModified": 1772243839,
-        "narHash": "sha256-qqUItlmweW32t2iDbipJzu+7r9gTeiOoppUta5J9OlE=",
+        "lastModified": 1772776678,
+        "narHash": "sha256-xvPwXihskzeyL+N/KAxUzhYK1W88fCpRowA0uVVJBg0=",
         "owner": "catdeal3r",
         "repo": "apple-fonts-flake",
-        "rev": "f8c40cd3234de046f23449ca2eddc0d97fc674b4",
+        "rev": "51ae8be0e6c6d6474536356ce1d903864029e381",
         "type": "github"
       },
       "original": {
