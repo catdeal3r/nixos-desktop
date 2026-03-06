@@ -141,7 +141,10 @@ in
   services.udisks2.enable = true;
   services.gvfs.enable = true;
   services.avahi.enable = true;
-  services.usbmuxd.enable = true;
+  services.usbmuxd = {
+    enable = true;
+    package = pkgs.usbmuxd2;
+  };
 
   virtualisation.libvirtd.enable = true;
 
