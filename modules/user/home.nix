@@ -54,7 +54,7 @@
         type = "Application";
         actions = {
           "NewWindow" = {
-            exec = "firefox --new-window %U -P";
+            exec = "firefox --new-window %U";
             name = "New Window";
           };
           "ProfileManager" = {
@@ -62,11 +62,11 @@
             name = "Profile Manager";
           };
           "NewPrivateWindow" = {
-            exec = "firefox --private-window %U -P";
+            exec = "firefox --private-window %U";
             name = "New Private Window";
           };
         };
-        exec = "firefox --name firefox %U -P";
+        exec = "firefox --name firefox %U";
       };
     };
 
