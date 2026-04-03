@@ -16,6 +16,7 @@
     xdg = {
       userDirs = {
         enable = true;
+        setSessionVariables = true;
         pictures = "/run/media/catdealer/Data/Pictures";
         documents = "/run/media/catdealer/Data/Documents";
         music = "/run/media/catdealer/Data/Music";
@@ -73,6 +74,7 @@
     gtk = {
       enable = true;
       gtk2.force = true;
+      gtk4.theme = null;
       
       iconTheme = {
         name = "Tela-circle";
