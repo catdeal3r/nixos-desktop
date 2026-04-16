@@ -121,6 +121,8 @@ in
     protontricks
     zip
     tor-browser
+    cargo
+    rustc
   ];
   
   programs.steam = {
