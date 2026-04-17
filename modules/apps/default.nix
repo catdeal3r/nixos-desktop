@@ -123,6 +123,7 @@ in
     tor-browser
     cargo
     rustc
+    opencode
   ];
   
   programs.steam = {
