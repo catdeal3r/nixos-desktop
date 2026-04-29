@@ -12,10 +12,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     flatpak-nix.url = "github:gmodena/nix-flatpak/?ref=latest";
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    #home-manager = {
+    #  url = "github:nix-community/home-manager";
+    #  inputs.nixpkgs.follows = "nixpkgs";
+    #};
     apple-fonts.url = github:catdeal3r/apple-fonts-flake;
     mcmojave-cursor.url = github:catdeal3r/mcmojave-cursor-flake;
     product-sans-font.url = github:catdeal3r/product-sans-flake;

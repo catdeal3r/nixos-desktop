@@ -1,9 +1,9 @@
 { pkgs, ... }:
 
 {
-  imports = [
-    ./home.nix
-  ];  
+  #imports = [
+  #  ./home.nix
+  #];  
 
   users.users.catdealer = {
     isNormalUser = true;
