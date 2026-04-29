@@ -11,10 +11,10 @@ let
 in
 {
 
-  #imports = [
+  imports = [
     #./quickshell.nix
-    #./flatpak.nix
-  #];
+    ./flatpak.nix
+  ];
   
   environment.systemPackages = with pkgs; [
     vim
@@ -98,9 +98,7 @@ in
     vital
     helm
     stirling-pdf
-    #inputs.prism-cracked.packages.${pkgs.stdenv.hostPlatform.system}.default
-    #inputs.idescriptor.packages.${pkgs.stdenv.hostPlatform.system}.default
-    #inputs.legacyLauncher.packages.${pkgs.stdenv.hostPlatform.system}.legacylauncher
+    inputs.idescriptor.packages.${pkgs.stdenv.hostPlatform.system}.default
 
     kdePackages.kdenlive
 
@@ -156,6 +154,6 @@ in
 
   fonts.packages = with pkgs; [
     minecraftia
-    #inputs.apple-fonts.packages.${pkgs.stdenv.hostPlatform.system}.sf-pro
+    inputs.apple-fonts.packages.${pkgs.stdenv.hostPlatform.system}.sf-pro
   ];
 }

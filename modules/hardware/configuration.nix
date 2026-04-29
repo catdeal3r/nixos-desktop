@@ -18,16 +18,16 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
-  # disabling cloudflare nameservers cause somethings broken rn
+  # disabling cloudflare nameservers cause fritzbox now blocks custom dns resolvers
   # networking.nameservers = [ "1.1.1.1" "1.0.0.1" ];
-  services.resolved = {
-    enable = true;
-    settings.Resolve = { 
-      DNSOverTLS = true;
-      DNSSEC = true;
-      Domains = [ "~." ];
-    };
-  };
+  # services.resolved = {
+  #   enable = true;
+  #   settings.Resolve = { 
+  #     DNSOverTLS = true;
+  #     DNSSEC = true;
+  #     Domains = [ "~." ];
+  #   };
+  # };
 
   # Enable bluetooth
   hardware.bluetooth.enable = true;
