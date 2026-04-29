@@ -112,26 +112,6 @@
         "type": "github"
       }
     },
-    "home-manager": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1777054018,
-        "narHash": "sha256-tTNS7V6xN/LX1KZ0TrdOnj375ZrsUlLoce4qxZwDN9U=",
-        "owner": "nix-community",
-        "repo": "home-manager",
-        "rev": "ffbd94a1c9d7d3e1258e51c084ab2109da04f2b1",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nix-community",
-        "repo": "home-manager",
-        "type": "github"
-      }
-    },
     "idescriptor": {
       "inputs": {
         "flake-utils": "flake-utils",
@@ -397,7 +377,6 @@
       "inputs": {
         "apple-fonts": "apple-fonts",
         "flatpak-nix": "flatpak-nix",
-        "home-manager": "home-manager",
         "idescriptor": "idescriptor",
         "mcmojave-cursor": "mcmojave-cursor",
         "nixpkgs": "nixpkgs_4",
