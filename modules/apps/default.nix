@@ -122,6 +122,7 @@ in
     cargo
     rustc
     opencode
+    darktable
   ];
   
   programs.steam = {
