@@ -19,7 +19,7 @@
   networking.networkmanager.enable = true;
 
   # disabling cloudflare nameservers cause fritzbox now blocks custom dns resolvers
-  # networking.nameservers = [ "1.1.1.1" "1.0.0.1" ];
+  networking.nameservers = [ "1.1.1.1" "1.0.0.1" ];
   # services.resolved = {
   #   enable = true;
   #   settings.Resolve = { 
