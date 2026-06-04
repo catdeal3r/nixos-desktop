@@ -123,6 +123,7 @@ in
     rustc
     opencode
     darktable
+    ollama
   ];
   
   programs.steam = {
