@@ -112,7 +112,6 @@ in
     #samba4Full
     cifs-utils
     nuclear
-    docker
     pwgen
     foot
     nautilus
@@ -124,7 +123,14 @@ in
     opencode
     darktable
     ollama
+    docker-compose
   ];
+  
+  virtualisation.podman = {
+    enable = true;
+    dockerCompat = true;
+    defaultNetwork.settings.dns_enabled = true;
+  };
   
   programs.steam = {
     enable = true;
