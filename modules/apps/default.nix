@@ -154,6 +154,8 @@ in
     enable = true;
     package = pkgs.usbmuxd2;
   };
+  
+  services.tailscale.enable = true;
 
   virtualisation.libvirtd.enable = true;
 
