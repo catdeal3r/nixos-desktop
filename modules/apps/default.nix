@@ -128,8 +128,7 @@ in
 
   services.ollama = {
     enable = true;
-    package = pkgs.ollama;
-    acceleration = "cuda";
+    package = pkgs.ollama-cuda;
   };
   
   virtualisation.podman = {
