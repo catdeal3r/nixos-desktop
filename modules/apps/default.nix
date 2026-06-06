@@ -122,9 +122,15 @@ in
     rustc
     opencode
     darktable
-    ollama
     docker-compose
   ];
+
+
+  services.ollama = {
+    enable = true;
+    package = pkgs.ollama;
+    acceleration = "cuda";
+  };
   
   virtualisation.podman = {
     enable = true;
