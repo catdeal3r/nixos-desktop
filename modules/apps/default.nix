@@ -124,6 +124,8 @@ in
     darktable
     docker-compose
     inputs.comfyui-nix.packages.${pkgs.stdenv.hostPlatform.system}.cuda
+    npm
+    npx
   ];
 
 
