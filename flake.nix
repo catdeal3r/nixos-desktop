@@ -19,6 +19,7 @@
     mcmojave-cursor.url = github:catdeal3r/mcmojave-cursor-flake;
     product-sans-font.url = github:catdeal3r/product-sans-flake;
     idescriptor.url = github:catdeal3r/idescriptor-flake;
+    comfyui-nix.url = github:utensils/comfyui-nix;
   };
 
   outputs = { nixpkgs, ... }@inputs: {

@@ -123,6 +123,7 @@ in
     opencode
     darktable
     docker-compose
+    inputs.comfyui-nix.packages.${pkgs.stdenv.hostPlatform.system}.cuda
   ];
 
 
@@ -133,9 +134,6 @@ in
     port = 11434;
   };
 
-
-  
-  
   virtualisation.podman = {
     enable = true;
     dockerCompat = true;
