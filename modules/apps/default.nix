@@ -123,7 +123,6 @@ in
     opencode
     darktable
     docker-compose
-    inputs.comfyui-nix.packages.${pkgs.stdenv.hostPlatform.system}.cuda
     nodejs
   ];
 
