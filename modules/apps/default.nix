@@ -124,6 +124,7 @@ in
     darktable
     docker-compose
     nodejs
+    wl-copy
   ];
 
 
