@@ -125,6 +125,7 @@ in
     docker-compose
     nodejs
     wl-clipboard
+    macchanger
   ];
 
 
