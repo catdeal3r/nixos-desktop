@@ -55,8 +55,11 @@
   }];
 
   services.udev.extraRules = ''
-    KERNEL=="hidraw*", ATTRS{idVendor}=="3554", MODE="0660", TAG+="uaccess"
-    KERNEL=="hidraw*", ATTRS{idVendor}=="373b", MODE="0660", TAG+="uaccess"
+    KERNEL=="hidraw*", ATTRS{idVendor}=="3554", MODE="0666"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="3554", MODE="0666"
+  
+    KERNEL=="hidraw*", ATTRS{idVendor}=="373b", MODE="0666"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="373b", MODE="0666"
   '';
 
   # Set your time zone.
