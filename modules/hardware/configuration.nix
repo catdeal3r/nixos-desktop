@@ -54,6 +54,11 @@
     size = 16 * 1024; # 16gb
   }];
 
+  services.udev.extraRules = ''
+    KERNEL=="hidraw*", ATTRS{idVendor}=="3554", MODE="0660", TAG+="uaccess"
+    KERNEL=="hidraw*", ATTRS{idVendor}=="373b", MODE="0660", TAG+="uaccess"
+  '';
+
   # Set your time zone.
   time.timeZone = "Pacific/Auckland";
 
